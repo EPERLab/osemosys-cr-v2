@@ -3,7 +3,4 @@ API
 
 Hola mundo este es un ejemplo
 
-.. autosummary::
-   :toctree: generated
-
-   lumache
+Y otro más de cómo se hace

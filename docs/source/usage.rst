@@ -1,6 +1,8 @@
 Usage
 =====
 
+Prueba
+
 .. _installation:
 
 Installation
