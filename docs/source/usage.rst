@@ -1,9 +1,9 @@
-Manual de uso de herramienta
+Uso de herramienta
 =====
 
 .. _installation:
 
-Installation
+Instalación
 ------------
 
 To use Lumache, first install it using pip:
@@ -12,7 +12,7 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
-Creating recipes
+Manual de usuario
 ----------------
 
 To retrieve a list of random ingredients,
