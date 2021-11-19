@@ -1,9 +1,9 @@
-Template for the Read the Docs tutorial
+Osemosys Guatemala
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+Este repositorio contiene la herramienta Osemosys especialmente
+diseñada para Guatemala.
 
-Read the tutorial here:
+La documentación puede ser accesada aquí (luego se va a cambiar el nombre):
 
 https://ejemplosphinx.readthedocs.io/en/latest/?
