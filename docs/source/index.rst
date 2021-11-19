@@ -1,17 +1,16 @@
-Welcome to Lumache's documentation!
+¡Bienvenido a Osemosys Guatemala!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+La documentación de **Osemosys Guatemala**  en formato vídeo puede ser
+accesada en el  `siguiente enlace <https://www.dropbox.com/s/qkpa1481e2kbe3m/Tutorial_Osemosys_GUA_2021_11_18.mp4?dl=0>`_
+
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   Este proyecto está en constante desarrollo.
 
 Contents
 --------
