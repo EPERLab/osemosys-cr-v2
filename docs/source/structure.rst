@@ -1,4 +1,4 @@
-Escenarios
+Estructura
 =====
 
 .. _installation:

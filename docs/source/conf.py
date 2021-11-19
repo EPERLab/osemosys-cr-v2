@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Osemosys Guatemala'
+project = 'Osemosys'
 copyright = '2021, Luis Fernando Victor'
 author = 'Luis Fernando Victor'
 
