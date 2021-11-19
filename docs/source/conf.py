@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Osemosys Guatemala'
+copyright = '2021, Luis Fernando Victor'
+author = 'Luis Fernando Victor'
 
 release = '0.1'
 version = '0.1.0'
