@@ -7,7 +7,7 @@ accesada en el  `siguiente enlace <https://www.dropbox.com/s/qkpa1481e2kbe3m/Tut
 En la Figura 1 se encuentra el diagrama general del proceso, el cual es
 descrito con detalle en la presente documentación.
 
-.. figure:: img/GeneralDiagram.png
+.. figure:: images/GeneralDiagram.png
    :align:   center
    :width:   700 px
 
@@ -17,7 +17,7 @@ descrito con detalle en la presente documentación.
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
-.. nota::
+.. note::
 
    Este proyecto está en constante desarrollo.
 
