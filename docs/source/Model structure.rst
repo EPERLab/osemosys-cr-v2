@@ -1,7 +1,9 @@
 Model structure
 =====
 
+<div style="text-align: justify">
 The model structure is a group of interconnected technologies through energy carriers that satisfy demands. Figure 2 illustrates the technological setup.
+</div>
 
 .. figure:: images/model_structure.png
    :align:   center
