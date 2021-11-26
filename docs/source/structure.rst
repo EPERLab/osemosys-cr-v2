@@ -1,4 +1,4 @@
-Estructura
+OSeMOSYS-CR-v2 execution in steps
 =====
 
 La finalidad de esta sección es definir los parámetros de entrada para el

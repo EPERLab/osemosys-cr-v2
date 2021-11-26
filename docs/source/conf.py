@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Osemosys'
-copyright = '2021, Luis Fernando Victor'
-author = 'Luis Fernando Victor'
+project = 'OSeMOSYS-CR-v2 '
+copyright = '2021, EPER Lab'
+author = 'EPER Lab'
 
 release = '0.1'
-version = '0.1.0'
+version = '2.0.0'
 
 # -- General configuration
 

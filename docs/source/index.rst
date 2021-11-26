@@ -1,37 +1,26 @@
 ¡Bienvenido a Osemosys!
 ===================================
 
-La documentación de **Osemosys**  en formato vídeo puede ser
-accesada en el  `siguiente enlace <https://www.dropbox.com/s/qkpa1481e2kbe3m/Tutorial_Osemosys_GUA_2021_11_18.mp4?dl=0>`_
+This repository is the online documentation for the OSeMOSYS-CR model version
+used in the research article *"Prioritizing policy options to transform energy
+systems: aligning decarbonization and production sophistication in Costa Rica"*.
+ Additionally, with Python-based programs for model and scenario creation, we
+ provide a toolset to accelerate the model production stage of the analysis
+ and reach the insight generation stage quickly. Finally, we elaborate on the
+ data sources and assumptions used to parametrize the model version for
+ the research paper mentioned above.
 
-En la Figura 1 se encuentra el diagrama general del proceso, el cual es
-descrito con detalle en la presente documentación.
+The steps in video format to execute the tools could be accesed in 
+`the next link <https://www.dropbox.com/s/qkpa1481e2kbe3m/Tutorial_Osemosys_GUA_2021_11_18.mp4?dl=0>`_
 
-.. figure:: images/GeneralDiagram.png
-   :align:   center
-   :width:   700 px
-
-   *Figura 1: Diagrama general
-
-En la sección :doc:`estructure` podrá revisar con detalle los pasos a seguir
-para construir la estructura de su modelo.
-
-Por su parte, en :doc:`scenarios`  se muestra cómo construir los distintos
-escenarios a ser analizados.
-
-Finalmente, en :doc:`usage` se encuentran los pasos a seguir para ejecutar la
-herramienta. Para ello, se deben parametrizar correctamente los escenarios
-y estructura para tener resultados válidos. 
-
-.. note::
-
-   Este proyecto está en constante desarrollo.
-
-Contenido
+Contents
 --------
 
 .. toctree::
 
-   usage
+   Overview
+   Model structure
+   Parameterization
+   Scenario creation
    structure
-   scenarios
+   References
