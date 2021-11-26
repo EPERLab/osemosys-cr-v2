@@ -16,9 +16,10 @@ Add distance Equation here
 
 .. math::
 
-   V_{k,y}=\frac{D_{k,y}}{d_{k,y}`\cdot OR_{k,y}}
+   V_{k,y}=\frac{D_{k,y}}{d_{k,y}\cdot OR_{k,y}}
 
 *Table X.* Model input references for demand modeling.
+
 .. table:: 
    :align:   center
 | **Model component**                                                               | **Source**                                                                                                                                                |
@@ -44,6 +45,7 @@ Explain technologies, parameters, and assumptions
 
 .. table:: 
    :align:   center
+
 | **Model component**                                                         | **Source**                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | LPG infrastructure characterization                                         | U.S. Department of Energy \[8\]                                                                                                                                                                              |
@@ -60,6 +62,9 @@ Secondary, transport, and other technologies
 Explain technologies, parameters, and assumptions
 
 *Table X.* Model input references for secondary, transport, and other technologies.
+.. table:: 
+   :align:   center
+   
 | **Model component**                       | **Source**                                                                                                                                                       |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Hydrogen charging infrastructure          | The International Council on Clean Transportation \[6\]                                                                                                          |
@@ -68,5 +73,3 @@ Explain technologies, parameters, and assumptions
 | Fleet characterization and vehicle costs  | Costa Rica's Ministry of Finance (personal communication; dataset unavailable).                                                                                  |
 | Passenger rail and urban interventions    | Financial analysis of Costa Rica's passenger rail project \[14\]                                                                                                 |
 
-.. table:: 
-   :align:   center
