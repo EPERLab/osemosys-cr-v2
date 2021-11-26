@@ -1,4 +1,4 @@
-2	Model structure
+Model structure
 =====
 
 The model structure is a group of interconnected technologies through energy carriers that satisfy demands. Figure 2 illustrates the technological setup.
@@ -7,7 +7,7 @@ The model structure is a group of interconnected technologies through energy car
    :align:   center
    :width:   700 px
 
-   *Figure 2: Energy supply chain modeled in OSeMOSYS-CR for this analysis.
+   Figure 2: Energy supply chain modeled in OSeMOSYS-CR for this analysis.
 
 Creating the model structure
 ------------
