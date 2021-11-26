@@ -6,6 +6,14 @@ Exogenous demands
 
 Add distance Equation here
 
+
+.. figure:: images/parameterezation.png
+   :align:   center
+   :width:   700 px
+
+   Figure 3: Exogenous and endogenous variables
+
+
 Fleet composition assumptions
 ------------
 
