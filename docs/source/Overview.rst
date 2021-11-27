@@ -1,12 +1,10 @@
 Overview
 =====
-<div style="text-align: justify">
+.. class:: justify
 We expand the first version of the OSeMOSYS-CR model [1] with three objectives. First, we add a representation of the energy transformation technological chain in the industrial sector, i.e., the collection of firms that consume energy to manufacture goods. Previously, only the energy supply and transport sectors were included. Second, we reformulate the model to link it to gross domestic product (GDP) growth as the driver of end-use energy or transport demands. Third, we present a toolset to flexibly create the model and multiple scenarios under the OSeMOSYS paradigm.
-</div>
 
-<div style="text-align: justify">
 OSeMOSYS is a bottom-up Energy System Optimization Model (ESOM) platform that supports long-term energy planning [2], [3]. OSeMOSYS-CR [1] is the ESOM used to inform the cost-benefit analysis [4] of Costa Rica's National Decarbonization Plan [5]. This model version, OSeMOSYS-CR-v2, has supporting Python-based software programs that facilitate the creation, parameterization, and analysis of multiple scenarios. Figure 1 shows the interaction of the supporting software programs.
-</div>
+
 
 .. figure:: images/GeneralDiagram.png
    :align:   center
