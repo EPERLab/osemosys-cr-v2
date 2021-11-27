@@ -31,6 +31,15 @@ Add distance Equation here
 | CO2_LightCargo  | Carbon Dioxide from light cargo            |                                                                         
 +-----------------+--------------------------------------------+
 
+.. table:: 
+   :align:   center
+| Model component                                                                   | Source                                                                                                                                                |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Occupancy rates                                                                   | We use a national transport survey from 2013 [11]                                                                                                     |
+| Driven distance by vehicle type                                                   | Costa Rica's technical revision entity [12]                                                                                                           |
+| Energy intensity by demand sector                                                 | Costa Rica's energy balances [13]                                                                                                                     |
+| Gross Domestic Product to drive demands and normalize expense and revenue results | We use official and publicly available GDP time series[20] and assume that all costs are in USD using the reported yearly average exchange rate [21]. |
+
 
 .. figure:: images/parameterezation.png
    :align:   center
