@@ -6,6 +6,31 @@ Exogenous demands
 
 Add distance Equation here
 
+.. table:: 
+   :align:   center
+   
++-----------------+--------------------------------------------+
+| Code            | Name                                       |                                                                 
++=================+============================================+
+| CO2_sources     | Carbon Dioxide from primary sources        |                                                                      
++-----------------+--------------------------------------------+
+| CO2_transport   | Carbon Dioxide from transport              |                                                                      
++-----------------+--------------------------------------------+
+| CO2_AGR         | Carbon Dioxide from agriculture            |                                                                         
++-----------------+--------------------------------------------+
+| CO2_COM         | Carbon Dioxide from the commercial sector  |                                                                         
++-----------------+--------------------------------------------+
+| CO2_IND         | Carbon Dioxide from the industrial sector  |                                                                         
++-----------------+--------------------------------------------+
+| CO2_RES         | Carbon Dioxide from the residential sector |                                                                         
++-----------------+--------------------------------------------+
+| CO2_Freigt      | Carbon Dioxide from freigt transport       |                                                                         
++-----------------+--------------------------------------------+
+| CO2_HeavyCargo  | Carbon Dioxide from heavy cargo            |                                                                         
++-----------------+--------------------------------------------+
+| CO2_LightCargo  | Carbon Dioxide from light cargo            |                                                                         
++-----------------+--------------------------------------------+
+
 
 .. figure:: images/parameterezation.png
    :align:   center
