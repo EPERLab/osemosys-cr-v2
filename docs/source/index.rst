@@ -1,6 +1,5 @@
-¡OSeMOSYS-CR v2!
+OSeMOSYS-CR v2
 ===================================
-.. class:: justify
 This repository is the online documentation for the OSeMOSYS-CR model version
 used in the research article *"Prioritizing policy options to transform energy
 systems: aligning decarbonization and production sophistication in Costa Rica"*.

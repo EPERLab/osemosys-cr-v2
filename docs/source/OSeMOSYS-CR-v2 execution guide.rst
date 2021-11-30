@@ -12,28 +12,20 @@ other operating systems Users can use Anaconda's Spyder or other execution platf
 run the Python files. Here we summarize the modeling and execution process
 with the support of Figure 10:
 
-1.	Identify the reference energy system (RES) of interest, defining sectoral
+1. Identify the reference energy system (RES) of interest, defining sectoral
 demands, supply options, and transformation technologies. Pick the modeling
 approach for every sector; our framework only supports detailed versions for
 transport and industry.
-
 2.	Complete the files inside the A1_Inputs folder following Section 2.1.
-
 3.	Execute A1_Model_Structure.py and edit the format of the files created
 inside A1_Outputs folder using Microsoft Excel to increase clarity and manipulate the tables.
-
 4.	Complete the technology interconnections using the files inside A1_Outputs and following Section 2.2.
-
 5.	Define the additional sets using files inside A2_Extra_Inputs following Section 2.3.
-
 6.	Parameterize all the files inside A1_Outputs following Section 3.
-
 7.	Execute the A2_Compiler.py as explained in Section 2.4.
-
 8.	Create the scenarios following the process explained in Section 4.
 Remember to copy and paste each parameter's comma-separated file from A2_Output_Params to B1_Output_Params.
-
-9.	Once the scenarios are parameterized, execute B1_Base_Scenarios.py.
+9.	Once the scenarios are parameterized, execute ``B1_Base_Scenarios.py``.
 Make sure the folder Executables exists inside the project's folder. 
 he OSeMOSYS_model.txt (see Figure 1) file is available in its repository.
 We advise this file to be executed in Spyder with the configuration
