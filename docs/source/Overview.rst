@@ -48,7 +48,7 @@ scenario creation guide:
 
 1.	The :ref:`model structure <chapter-ModelStructure>` section shows the technological options we model.
 
-2. The :ref:`chapter-Parameterization` section elaborates on the assumptions and data inputs,
+2. The _`chapter-Parameterization` section elaborates on the assumptions and data inputs,
 including exogenous demand equations.
 
 3. The :ref:`chapter-ScenarioModeling` section shows the tool component to create the
