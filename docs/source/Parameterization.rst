@@ -174,40 +174,41 @@ Secondary, transport, and other technologies
 ------------
 
 Here we explain the remaining sheets in the A-O_Parameterization.xlsx (file 10) workbook:
-- | Secondary Techs: has parameters of some of the technologies in Table 2; i.e.,
-  | power transmission, distribution, hydrogen production, and distribution.
+
+- Secondary Techs: has parameters of some of the technologies in Table 2; i.e.,
+   power transmission, distribution, hydrogen production, and distribution.
 
 - Demand Techs: the technologies are in Table 3 and do not have associated costs or residual capacity.
 
-- | Transport Fuel Distribution: has the technologies are in Table 4. Only
-  | electric vehicle chargers are modeled in sets T4ELE_PUB and T4ELE_HEA.
+- Transport Fuel Distribution: has the technologies are in Table 4. Only
+   electric vehicle chargers are modeled in sets T4ELE_PUB and T4ELE_HEA.
 
-- | Vehicle Techs: has the technologies of Table 5. Here the costs and 
-  | **ResidualCapacity** (or residual capacities) of each vehicle type must be inputted,
-  | corresponding with the base year number of vehicles. The costs can be entered either
-  | as an absolute value per vehicle or a value relative to another vehicle type;
-  | to define a value relative to another technology, type "Relative to" the technology
-  | under the "Unit.Introduced" column. Cost projections can be entered relative to
-  | the base year by typing "User defined trajectory relative to BY" under the "Projection.Mode" column.
+- Vehicle Techs: has the technologies of Table 5. Here the costs and 
+   **ResidualCapacity** (or residual capacities) of each vehicle type must be inputted,
+   corresponding with the base year number of vehicles. The costs can be entered either
+   as an absolute value per vehicle or a value relative to another vehicle type;
+   to define a value relative to another technology, type "Relative to" the technology
+   under the "Unit.Introduced" column. Cost projections can be entered relative to
+   the base year by typing "User defined trajectory relative to BY" under the "Projection.Mode" column.
 
-- | Vehicle Groups: has the technologies of Table 6. Modelers only must type
-| "According to demand" under the "Projection.Mode" column.
+- Vehicle Groups: has the technologies of Table 6. Modelers only must type
+   "According to demand" under the "Projection.Mode" column.
 
-- | Industry Fuel Distribution: has the technologies of Table 7. These sets do
-| not need additional cost or residual capacity parameters: modelers may enter
-| "EMPTY" under the "Projection.Mode" column or leave a blank.
+- Industry Fuel Distribution: has the technologies of Table 7. These sets do
+   not need additional cost or residual capacity parameters: modelers may enter
+   "EMPTY" under the "Projection.Mode" column or leave a blank.
 
-- | Industry Techs: has the technologies of Table 8. The residual capacities and
-| end-use characterization derive from Ministry of Energy and Environment studies [25], [26].
+- Industry Techs: has the technologies of Table 8. The residual capacities and
+   end-use characterization derive from Ministry of Energy and Environment studies [25], [26].
 
-- | Industry Groups: has the technologies of Table 9. Modelers only must type
-| "According to demand" under the "Projection.Mode" column.
+- Industry Groups: has the technologies of Table 9. Modelers only must type
+   "According to demand" under the "Projection.Mode" column.
 
-- | Other: has the technologies of Table 10. Its table is useful to enter
-| specific parameters for technologies that had not been defined. It also helps
-| define previously undefined technologies. For example, detailed passenger rail
-| costs are isolated technologies independent of other variables, which we define
-| in this sheet for the decarbonization scenario.
+- Other: has the technologies of Table 10. Its table is useful to enter
+   specific parameters for technologies that had not been defined. It also helps
+   define previously undefined technologies. For example, detailed passenger rail
+   costs are isolated technologies independent of other variables, which we define
+   in this sheet for the decarbonization scenario.
 
 Importantly, regardless of technology, the Fixed Horizon Parameters sheet was
 the **OperationalLife** parameter. Another parameter in the sheet is
