@@ -39,12 +39,10 @@ For a fast model interconnection following the reference energy system (RES)
 of Figure 2, we use multiple Microsoft Excel files inside the ``A1_Inputs folder``
 (see Figure 1):
 
--	A-I_Horizon Configuration.xlsx (file 1): it configures the initial and
-last years of the analysis period. This file is straightforward to complete.
-
-- A-I_Clasiffier_Modes_Demand.xlsx (file 2): specifies the demand sectors
-and their modeling approach. Table 1 shows how to specify the sectors
-and their approaches.
+-	A-I_Horizon Configuration.xlsx (file 1): it configures the initial and last
+   years of the analysis period. This file is straightforward to complete.
+- A-I_Clasiffier_Modes_Demand.xlsx (file 2): specifies the demand sectors and
+  their modeling approach. Table 1 shows how to specify the sectors and their approaches.
 
 *Table 1.* Modeling approach per sector in sheet Sectors of file 2.
 

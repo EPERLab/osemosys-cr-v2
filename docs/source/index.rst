@@ -19,5 +19,4 @@ Contents
    Parameterization
    Scenario modeling
    OSeMOSYS-CR-v2 execution guide
-   Input-output analysis and metrics guide
    References

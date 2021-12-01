@@ -8,51 +8,51 @@ repository's paper: "Prioritizing policy options to transform energy systems:
 aligning decarbonization and production sophistication in Costa Rica." The
 file consists of nine sheets:
 
-- | Scenarios: it defines the scenarios to model in the simulation. Generally,
-  | there are two main scenarios. One of them is the business-as-usual (BAU)
-  | scenario where fossil fuels prevail. The other is a decarbonization scenario.
-  | It has electrification and other measures that make the energy system more efficient.
-  | Other scenarios derive from the other two.
+- Scenarios: it defines the scenarios to model in the simulation. Generally,
+  there are two main scenarios. One of them is the business-as-usual (BAU)
+  scenario where fossil fuels prevail. The other is a decarbonization scenario.
+  It has electrification and other measures that make the energy system more efficient.
+  Other scenarios derive from the other two.
 
-- | Overall_Parameters: it defines the **Initial_Year_of_Uncertainty.** It is a
-  | parameter that ``B1_Base_Scenarios.py`` uses to start separating demand and
-  | restriction projections between scenarios.
+- Overall_Parameters: it defines the **Initial_Year_of_Uncertainty.** It is a
+  parameter that ``B1_Base_Scenarios.py`` uses to start separating demand and
+  restriction projections between scenarios.
 
-- | Distance_Levers: it changes the distance traveled by every vehicle group.
-  | By default, this value is 1. The entered value multiplies the 2050 value from
-  | the parameterization phase. The table in the sheet must specify the scenario
-  | and the transport group technology.
+- Distance_Levers: it changes the distance traveled by every vehicle group.
+  By default, this value is 1. The entered value multiplies the 2050 value from
+  the parameterization phase. The table in the sheet must specify the scenario
+  and the transport group technology.
 
-- | Mode_Shift: it is another scenario-specific and technology-specific table.
-  | Under the "Conext" column, modelers can specify "Demand" or "Technology",
-  | depending on the set under "Tech_Set". "Demand" sets are used to parameterize
-  | the mode shift equations presented in the article. The technology sets activate
-  | or deactivate the entrance of rail transport options.
+- Mode_Shift: it is another scenario-specific and technology-specific table.
+  Under the "Conext" column, modelers can specify "Demand" or "Technology",
+  depending on the set under "Tech_Set". "Demand" sets are used to parameterize
+  the mode shift equations presented in the article. The technology sets activate
+  or deactivate the entrance of rail transport options.
 
-- | Occupancy_Rate: it changes the occupancy rate of a transport group set and
-  | works like the Distance_Levers sheet.
+- Occupancy_Rate: it changes the occupancy rate of a transport group set and
+  works like the Distance_Levers sheet.
 
-- | TElasticity: changes the **SpecifiedAnnualDemand** parameter of passenger and
-  | freight demand commodity sets. Hence, any change to demand in a scenario because
-  | of changes in elasticity of demand must be done exogenously.
+- TElasticity: changes the **SpecifiedAnnualDemand** parameter of passenger and
+  freight demand commodity sets. Hence, any change to demand in a scenario because
+  of changes in elasticity of demand must be done exogenously.
 
-- | Tech_Adoption: has the same logic as the Mode_Shift but specifies technological
-  | penetration. Another difference is the "Restriction_Type" column: "Max" fixes
-  | the **TotalAnnualMaxCapacity** restriction, "Min" the
-  | **TotalAnnualTechnologyActivityLowerLimit,** and “Min/Max” both.
+- Tech_Adoption: has the same logic as the Mode_Shift but specifies technological
+  penetration. Another difference is the "Restriction_Type" column: "Max" fixes
+  the **TotalAnnualMaxCapacity** restriction, "Min" the
+  **TotalAnnualTechnologyActivityLowerLimit,** and “Min/Max” both.
 
-- | Electrical: has a table per scenario and technology. This sheet is reserved
-  | for technologies in Table 2, which represent power generation technologies.
-  | Modelers must enter the parameter they want to change: often **TotalAnnualMaxCapacity**
-  | and **TotalAnnualMinCapacity** to enter a fixed amount of new installed capacity
-  | or place a cap. Other parameters are **TotalAnnualTechnologyActivityLowerLimit**
-  | and **TotalAnnualTechnologyActivityUpperLimit** to determine the electricity
-  | generation per power plant in Petajoules. These two, combined with **CapacityFactor**,
-  | can reflect a determined operational result. The **ResidualCapacity** parameter
-  | can be changed to phase-out plants existing in the base year.
+- Electrical: has a table per scenario and technology. This sheet is reserved
+  for technologies in Table 2, which represent power generation technologies.
+  Modelers must enter the parameter they want to change: often **TotalAnnualMaxCapacity**
+  and **TotalAnnualMinCapacity** to enter a fixed amount of new installed capacity
+  or place a cap. Other parameters are **TotalAnnualTechnologyActivityLowerLimit**
+  and **TotalAnnualTechnologyActivityUpperLimit** to determine the electricity
+  generation per power plant in Petajoules. These two, combined with **CapacityFactor**,
+  can reflect a determined operational result. The **ResidualCapacity** parameter
+  can be changed to phase-out plants existing in the base year.
 
-- | Efficiency: is similar to TElasticity for demand sectors in Petajoule units,
-  | i.e., the sets with a simple approach demand.
+- Efficiency: is similar to TElasticity for demand sectors in Petajoule units,
+  i.e., the sets with a simple approach demand.
 
 In the following subsections, we elaborate on implementation details not covered in the previous list.
 
@@ -129,12 +129,13 @@ is informative only.
 The "Method" column specifies instructions about the manipulation of the time
 series, separated by semicolons. The options are described below:
 
-- The "Write" and "Overwrite" substrings relate to whether the parameter is built-in or not.
+- The "Write" and "Overwrite" substrings relate to whether the parameter is
+  built-in or not.
 
 - The "Interpolate" option makes a linear interpolation between the last known
-value and the desired value. On the other hand, the "Interpolate_Escalate" value
-fixes the last known value until the year before the target year.
+  value and the desired value. On the other hand, the "Interpolate_Escalate" value
+  fixes the last known value until the year before the target year.
 
 - The "Fix_Last" option fixes the target value for all years after the target year.
-In contrast, the "Fix_Indicated" option leaves a single value under the
-"Exact_Values" column as constant throughout the period.
+  In contrast, the "Fix_Indicated" option leaves a single value under the
+  "Exact_Values" column as constant throughout the period.
