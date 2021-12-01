@@ -33,8 +33,8 @@ A. Building of bottom-up techno-economic model structure and input
    parameterization: It comprises Microsoft Excel files containing inputs
    for ``A1_Mode_Structure.py`` and ``A2_Compiler.py``, which create all the
    necessary model sets, connections, and adequate parameterization for a
-   Business-as-Usual scenario, i.e.,
-a scenario without energy transformations.
+   Business-as-Usual scenario, i.e., a scenario without energy transformations.
+
 B. Scenario configuration: contains Microsoft Excel files indicating parameter
    changes performed by ``B1_Base_Scenarios.py`` to model scenarios with energy
    system transformation, execute OSeMOSYS, and obtain results files. 
@@ -48,10 +48,10 @@ scenario creation guide:
 
 I.	The :ref:`chapter-ModelStructure` section shows the technological options we model.
 II. The :ref:`chapter-Parameterization` section elaborates on the assumptions and data inputs,
-    including exogenous demand equations.
+including exogenous demand equations.
 III. The :ref:`chapter-ScenarioModeling` section shows the tool component to create the
-     multiple scenarios in "Prioritizing policy options to transform energy
-     systems: aligning decarbonization and production sophistication in Costa Rica."
+multiple scenarios in "Prioritizing policy options to transform energy
+systems: aligning decarbonization and production sophistication in Costa Rica."
 IV. The :ref:`chapter-OSeMOSYS-CR-v2-execution-guide` describes the modeling process in
-    simple steps. It also contains the Python packages to execute the scripts.
+simple steps. It also contains the Python packages to execute the scripts.
 
