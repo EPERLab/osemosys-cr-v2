@@ -47,11 +47,14 @@ We explain OSeMOSYS-CR-v2 in four sections for a step-by-step setup and
 scenario creation guide:
 
 I.	The :ref:`chapter-ModelStructure` section shows the technological options we model.
+
 II. The :ref:`chapter-Parameterization` section elaborates on the assumptions and data inputs,
 including exogenous demand equations.
+
 III. The :ref:`chapter-ScenarioModeling` section shows the tool component to create the
 multiple scenarios in "Prioritizing policy options to transform energy
 systems: aligning decarbonization and production sophistication in Costa Rica."
+
 IV. The :ref:`chapter-OSeMOSYS-CR-v2-execution-guide` describes the modeling process in
 simple steps. It also contains the Python packages to execute the scripts.
 
