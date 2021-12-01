@@ -20,6 +20,7 @@ that facilitate the creation, parameterization, and analysis of multiple scenari
 Figure 1 shows the interaction of the supporting software programs designed to
 work on Windows operation systems and the GLPK OSeMOSYS implementation.
 
+.. _figure1:
 
 .. figure:: images/GeneralDiagram.png
    :align:   center
@@ -46,15 +47,15 @@ converts all input and output data into two comma-separated files
 We explain OSeMOSYS-CR-v2 in four sections for a step-by-step setup and
 scenario creation guide:
 
-1.	The :ref:`model structure <chapter-ModelStructure>` section shows the technological options we model.
-
-2. The _`chapter-Parameterization` section elaborates on the assumptions and data inputs,
-including exogenous demand equations.
-
-3. The :ref:`chapter-ScenarioModeling` section shows the tool component to create the
-multiple scenarios in "Prioritizing policy options to transform energy
-systems: aligning decarbonization and production sophistication in Costa Rica."
-
-4. The :ref:`chapter-OSeMOSYS-CR-v2-execution-guide` describes the modeling process in
-simple steps. It also contains the Python packages to execute the scripts.
+1.	The :ref:`model structure <chapter-ModelStructure>` section shows the
+technological options we model.
+2. The :ref:`parameterization <chapter-Parameterization>` section elaborates on
+the assumptions and data inputs, including exogenous demand equations.
+3. The :ref:`scenario modeling <chapter-ScenarioModeling>` section shows the
+tool component to create the multiple scenarios in "Prioritizing policy
+options to transform energy systems: aligning decarbonization and production
+sophistication in Costa Rica."
+4. The :ref:`OSEMOSYS-CR-v2 execution guide <chapter-OSeMOSYS-CR-v2-execution-guide>`
+describes the modeling process in simple steps. It also contains the Python
+packages to execute the scripts.
 
