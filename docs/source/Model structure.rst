@@ -92,9 +92,11 @@ execution.
   (or energy technology) that each technology can have. An additional sheet called
   **Fuel_per_VehFuel** links energy carriers to fuel technology, e.g.,
   a plug-in hybrid requires gasoline and electricity.
+  
+  .. _figure4:
   .. figure:: images/figure4.png
-   :align:   center
-   :width:   500 px
+     :align:   center
+     :width:   500 px
 
    **Figure 4.** Technologies per demand in sheet Mode_Broad of file 3. Technology
    and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
