@@ -95,6 +95,7 @@ execution.
   .. figure:: images/figure4.png
    :align:   center
    :width:   500 px
+
    **Figure 4.** Technologies per demand in sheet Mode_Broad of file 3. Technology
    and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
    to find equivalencies opening the sheets named "_to_Code").
@@ -102,8 +103,9 @@ execution.
    .. figure:: images/figure5.png
    :align:   center
    :width:   600 px
+
    **Figure 5.** Fuels per technology in sheet Mode_per_VehFuel of file 3.
-   Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`)
+   Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
    to find equivalencies open the sheets named "_to_Code").
 - A-I_Modes_Industry.xlsx (file 4): contains a detailed transformation chain
   for the industry sector. Figure 6 shows the industry technologies (seven)
@@ -111,13 +113,14 @@ execution.
   that each technology can have. Each fuel technology is associated with a
   unique energy carrier in the industrial sector (as in sheet Fuel_per_TecFuel).
   .. figure:: images/figure6.png
-   :align:   center
-   :width:   600 px
-   **Figure 6.** Technologies per demand in sheet Mode_Broad of file 4.
-   Technology and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
-   to find equivalencies open the sheets named "_to_Code").
+  :align:   center
+  :width:   600 px
 
-.. _figure7:
+  **Figure 6.** Technologies per demand in sheet Mode_Broad of file 4.
+  Technology and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
+  to find equivalencies open the sheets named "_to_Code").
+
+   .. _figure7:
     .. figure:: images/figure7.png
    :align:   center
    :width:   600 px
@@ -161,7 +164,7 @@ distributed as E3HYD for sectors to consume :ref:`Figure 7c <figure7>`.
 
 A comprehensive list of technologies and fuels is :ref:`resulting models sets section <resulting-models>`.
 
-.. figure:: images/fuels_per_sector.png
+.. figure:: images/figure8.png
    :align:   center
    :width:   700 px
 
@@ -242,6 +245,7 @@ files containing elements that complement the energy system modeling:
 - A-Xtra_Projections.xlsx (file 12): it has two sheets to parameterize transport
   demands. The Projections sheet has fields for years between 2019 and 2050
   and contemplates five parameters exogenous to OSeMOSYS:
+
   - **Variation_GDP**: reflects the variation of GDP.
   - **e_Passenger**: reflects the passenger demand elasticity to GDP.
   - **e_Freight: reflects the freight demand elasticity to GDP.
@@ -285,7 +289,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 .. table:: 
    :align:   center
 
-   +-----+-------------+----------------------------------------------------------------------------------------+-----+--------+------------------------------------------+
++-----+-------------+----------------------------------------------------------------------------------------+-----+--------+------------------------------------------+
 |     | Technology  | Technology description                                                                 |     | Fuels  | Fuel description                         |
 +=====+=============+========================================================================================+=====+========+==========================================+
 | 1   | DIST_DSL    | Distribution of Diesel                                                                 | 1   | E1DSL  | Diesel                                   |
@@ -341,7 +345,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 .. table:: 
    :align:   center
-   +---+-------------+-----------+---------------------------------------------------------+
++---+-------------+-----------+---------------------------------------------------------+
 |   | Technology  | Fuels     | Technology and Fuel descriptions                        |
 +===+=============+===========+=========================================================+
 | 1 | T5DSLAGR    | E5AGRDSL  | Diesel for Agriculture                                  |
@@ -365,7 +369,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 .. table:: 
    :align:   center
-   +-----+-------------+------------+------------------------------------------------------+
++-----+-------------+------------+------------------------------------------------------+
 |     | Technology  | Fuels      | Technology and Fuel descriptions                     |
 +=====+=============+============+======================================================+
 | 1   | T4DSL_PRI   | E4DSL_PRI  | Diesel for Private Transport                         |
@@ -495,7 +499,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 .. table:: 
    :align:   center
-   +-----+-----------------------+----------------------------+---+-------------+--------------------------------------+
++-----+-----------------------+----------------------------+---+-------------+--------------------------------------+
 |     | Technology            | Technology description     |   | Fuels       | Fuel description                     |
 +=====+=======================+============================+===+=============+======================================+
 | 1   | Techs_SUVMIV          | SUVs (including Minivans)  | 1 | E6TDPASPRI  | Private Passenger-kilometer          |
@@ -523,7 +527,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 .. table:: 
    :align:   center
-   +-----+-------------+------------+-------------------------------------------------------+
++-----+-------------+------------+-------------------------------------------------------+
 |     | Technology  | Fuels      | Technology and Fuel descriptions                      |
 +=====+=============+============+=======================================================+
 | 1   | T4DSL_AL1   | E4DSL_AL1  | Diesel for Steam                                      |
@@ -589,7 +593,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 .. table:: 
    :align:   center
-   +-----+-------------+---------------------------------------------------+---+----------+------------------------------+
++-----+-------------+---------------------------------------------------+---+----------+------------------------------+
 |     | Technology  | Technology description                            |   | Fuels    | Fuel description             |
 +=====+=============+===================================================+===+==========+==============================+
 | 1   | INBOIDSL    | Diesel Boiler                                     | 1 | E5INBOI  | Heat for Steam               |
@@ -659,7 +663,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 .. table:: 
    :align:   center
-   +---+-------------------------+-------------+------------------------------------+
++---+-------------------------+-------------+------------------------------------+
 |   | Technology              | Fuels       | Technology and fuel description    |
 +===+=========================+=============+====================================+
 | 1 | Techs_Boilers           | E7IDSTEAL1  | Steam for all industries           |
@@ -681,7 +685,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 .. table:: 
    :align:   center
-   +---+-----------------+------------------------------------+---+------------+-----------------------+
++---+-----------------+------------------------------------+---+------------+-----------------------+
 |   | Technology      | Technology description             |   | Fuels      | Fuel description      |
 +===+=================+====================================+===+============+=======================+
 | 1 | TRANOMOTBike    | Biking infrastructure              | 1 | E6TRNOMOT  | Non-motorized demand  |
