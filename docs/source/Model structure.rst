@@ -98,9 +98,9 @@ execution.
      :align:   center
      :width:   500 px
 
-   **Figure 4.** Technologies per demand in sheet Mode_Broad of file 3. Technology
-   and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
-   to find equivalencies opening the sheets named "_to_Code").
+     **Figure 4.** Technologies per demand in sheet Mode_Broad of file 3. Technology
+     and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
+     to find equivalencies opening the sheets named "_to_Code").
 
    .. _figure5:
    .. figure:: images/figure5.png
