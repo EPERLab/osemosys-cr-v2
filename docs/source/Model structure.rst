@@ -126,6 +126,7 @@ execution.
   .. figure:: images/figure7.png
      :align:   center
      :width:   600 px
+
      **Figure 7.** Fuels per technology in sheet Mode_per_TecFuel of file 4.
      Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`)
      to find equivalencies open the sheets named "_to_Code".
@@ -257,7 +258,7 @@ files containing elements that complement the energy system modeling:
     freight road vehicles.
   The Projection_Mode sheet contains the projection modes for each variable.
   Crucially, these variables are used later on for other projections sheets:
-  
+
   - **User-defined:** the modeler specifies the values for every year.
   - **Interpolate to final value:** the modeler specifies the base year and
     final year values; consecutive values after the base year can be added.
@@ -476,8 +477,8 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 29  | TRXTRAIFREELE  | Electric Freight Train               |     |               |                                       |
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
 | 30  | TRYTKDSL       | Diesel Heavy Truck                   |     |               |                                       |
-+-----+----------------+--------------------------------------+-----+---------------+
-| 31  | TRYTKLPG       | Liquified Petroleum Gas Heavy Truck  |     |               |
++-----+----------------+--------------------------------------+-----+---------------+                                       |
+| 31  | TRYTKLPG       | Liquified Petroleum Gas Heavy Truck  |     |               |                                       |
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
 | 32  | TRYTKELE       | Electric Heavy Truck                 |     |               |                                       |
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
@@ -488,8 +489,8 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 35  | TRYLFDSL       | Diesel Light Truck                   |     |               |                                       |
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
 | 36  | TRYLFGSL       | Gasoline Light Truck                 |     |               |                                       |
-+-----+----------------+--------------------------------------+-----+---------------+
-| 37  | TRYLFLPG       | Liquified Petroleum Gas Light Truck  |     |               |
++-----+----------------+--------------------------------------+-----+---------------+                                       |
+| 37  | TRYLFLPG       | Liquified Petroleum Gas Light Truck  |     |               |                                       |
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
 | 38  | TRYLFELE       | Electric Light Truck                 |     |               |                                       |
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
@@ -700,8 +701,8 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 4 | TRANRAILINF     | Rail infrastructure                |   |            |                       |
 +---+-----------------+------------------------------------+---+------------+-----------------------+
 | 5 | TRANRAILCAR     | Rolling stock                      |   |            |                       |
-+---+-----------------+------------------------------------+---+------------+
-| 6 | TRANE6NOMOT     | Non-motorized enabling technology  |   |            |
++---+-----------------+------------------------------------+---+------------+                       |
+| 6 | TRANE6NOMOT     | Non-motorized enabling technology  |   |            |                       |
 +---+-----------------+------------------------------------+---+------------+-----------------------+
 | 7 | TRANRAILFREINF  | Freight rail infrastructure        |   |            |                       |
 +---+-----------------+------------------------------------+---+------------+-----------------------+
