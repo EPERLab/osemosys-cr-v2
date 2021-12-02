@@ -56,7 +56,7 @@ Figure 9 illustrates the variable interactions defined in Equations 1 to 6 of
 the research article.  Table 11 explains data sources for key parameterization of demands.
 
 
-*Table 11.* Model input references for demand modeling.
+**Table 11.** Model input references for demand modeling.
 
 .. table:: 
    :align:   center
@@ -126,7 +126,7 @@ existing installed capacity per technology. The **TotalAnnualMaxCapacity**
 (henceforth, maximum capacity) and **TotalAnnualMinCapacity**
 are used to define the planned capacity of existing plans.
 
-*Table 12.* Model input references for primary technologies.
+**Table 12.** Model input references for primary technologies.
 
 .. table:: 
    :align:   center
@@ -222,7 +222,7 @@ in Section 2.2. For the rest of the parameters, Table 13 shows the sources
 for technologies or specific technology parameters.
 
 
-*Table 13.* Model input references for secondary, transport, and other technologies.
+**Table 13.** Model input references for secondary, transport, and other technologies.
 
 .. table:: 
    :align:   center

@@ -46,4 +46,4 @@ the GitHub repository.
    :align:   center
    :width:   700 px
 
-   Figure 10: Diagram of supporting software tools of OSeMOSYS-CR-v2.
+   **Figure 10.** Diagram of supporting software tools of OSeMOSYS-CR-v2.

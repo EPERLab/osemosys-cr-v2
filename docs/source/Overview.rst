@@ -26,7 +26,7 @@ work on Windows operation systems and the GLPK OSeMOSYS implementation.
    :align:   center
    :width:   700 px
 
-   Figure 1: Diagram of supporting software tools of OSeMOSYS-CR-v2.
+   **Figure 1**. Diagram of supporting software tools of OSeMOSYS-CR-v2.
 
 The two major components of the toolset are:
 

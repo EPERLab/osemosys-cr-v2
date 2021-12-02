@@ -48,7 +48,7 @@ of Figure 2, we use multiple Microsoft Excel files inside the ``A1_Inputs folder
   their modeling approach. Table 1 shows how to specify the sectors and their
   approaches.
 
-*Table 1.* Modeling approach per sector in sheet Sectors of file 2.
+**Table 1.** Modeling approach per sector in sheet Sectors of file 2.
 
 .. table:: 
    :align:   center
@@ -77,7 +77,7 @@ energy system. Unmarked energy carriers are used only in detailed sectors.
 
 .. figure:: images/fuels_per_sector.png
    :align:   center
-   :width:   400 px
+   :width:   500 px
 
    **Figure 3.** Fuels per sector with a simple modeling approach in sheet
    Fuel_per_Sectors of file 2.
@@ -100,11 +100,12 @@ execution.
    and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
    to find equivalencies opening the sheets named "_to_Code").
 
+   .. _figure5:
    .. figure:: images/figure5.png
-   :align:   center
-   :width:   600 px
+      :align:   center
+      :width:   600 px
 
-   **Figure 5.** Fuels per technology in sheet Mode_per_VehFuel of file 3.
+      **Figure 5.** Fuels per technology in sheet Mode_per_VehFuel of file 3.
    Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
    to find equivalencies open the sheets named "_to_Code").
 - A-I_Modes_Industry.xlsx (file 4): contains a detailed transformation chain
@@ -112,21 +113,22 @@ execution.
   that each supply each demand (seven). Figure 7 shows the energy technology
   that each technology can have. Each fuel technology is associated with a
   unique energy carrier in the industrial sector (as in sheet Fuel_per_TecFuel).
+  
   .. figure:: images/figure6.png
-  :align:   center
-  :width:   600 px
+     :align:   center
+     :width:   600 px
 
-  **Figure 6.** Technologies per demand in sheet Mode_Broad of file 4.
-  Technology and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
-  to find equivalencies open the sheets named "_to_Code").
+     **Figure 6.** Technologies per demand in sheet Mode_Broad of file 4.
+     Technology and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
+     to find equivalencies open the sheets named "_to_Code").
 
-   .. _figure7:
-    .. figure:: images/figure7.png
-   :align:   center
-   :width:   600 px
-   **Figure 7.** Fuels per technology in sheet Mode_per_TecFuel of file 4.
-   Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`)
-   to find equivalencies open the sheets named "_to_Code".
+  .. _figure7:
+  .. figure:: images/figure7.png
+     :align:   center
+     :width:   600 px
+     **Figure 7.** Fuels per technology in sheet Mode_per_TecFuel of file 4.
+     Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`)
+     to find equivalencies open the sheets named "_to_Code".
 - A-I_Classifier_Modes_Supply.xlsx (file 5): specifies the supply chain of final
   energy per carrier. It has two sheets:
   i) PrimaryEnergy defines what technologies produce the initial fuels of the
@@ -166,7 +168,7 @@ A comprehensive list of technologies and fuels is :ref:`resulting models sets se
 
 .. figure:: images/figure8.png
    :align:   center
-   :width:   700 px
+   :width:   500 px
 
    **Figure 8**. Examples of supply-side set definition for a) primary
    technologies, b) electricity transmission and distribution,
@@ -246,15 +248,16 @@ files containing elements that complement the energy system modeling:
   demands. The Projections sheet has fields for years between 2019 and 2050
   and contemplates five parameters exogenous to OSeMOSYS:
 
-  - **Variation_GDP**: reflects the variation of GDP.
-  - **e_Passenger**: reflects the passenger demand elasticity to GDP.
-  - **e_Freight: reflects the freight demand elasticity to GDP.
-  - **Variation_km_Passenger**: reflects the change of distance traveled for
+  - **Variation_GDP:** reflects the variation of GDP.
+  - **e_Passenger:** reflects the passenger demand elasticity to GDP.
+  - **e_Freight:** reflects the freight demand elasticity to GDP.
+  - **Variation_km_Passenger:** reflects the change of distance traveled for
     passenger vehicles.
-  - **Variation_km_Freight**: reflects the change of distance traveled for
+  - **Variation_km_Freight:** reflects the change of distance traveled for
     freight road vehicles.
   The Projection_Mode sheet contains the projection modes for each variable.
   Crucially, these variables are used later on for other projections sheets:
+  
   - **User-defined:** the modeler specifies the values for every year.
   - **Interpolate to final value:** the modeler specifies the base year and
     final year values; consecutive values after the base year can be added.
@@ -284,7 +287,7 @@ The modelers must copy and paste the sets from A-2_Structure_Lists.xlsx
 to the template in the file B1_Model_Structure.xlsx (as illustrated in
 :ref:`Figure 1 <figure1>`). 
 
-*Table 2.* Supply-side sets.
+**Table 2.** Supply-side sets.
 
 .. table:: 
    :align:   center
@@ -341,7 +344,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 24  | HYD_DIST    | Hydrogen Distribution                                                                  |     |        |                                          |
 +-----+-------------+----------------------------------------------------------------------------------------+-----+--------+------------------------------------------+
 
-*Table 3.* Final demand sets.
+**Table 3.** Final demand sets.
 
 .. table:: 
    :align:   center
@@ -365,7 +368,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 8 | T5ELEEXP    | E5EXPELE  | Electricity for Exports                                 |
 +---+-------------+-----------+---------------------------------------------------------+
 
-*Table 4.* Transport energy distribution.
+**Table 4.** Transport energy distribution.
 
 .. table:: 
    :align:   center
@@ -407,7 +410,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 17  | T4ELE_LIG   | E4ELE_LIG  | Electricity for Light Freight Transport              |
 +-----+-------------+------------+------------------------------------------------------+
 
-*Table 5.* Transport technologies.
+**Table 5.** Transport technologies.
 
 .. table:: 
    :align:   center
@@ -495,7 +498,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 40  | TRYLFPHD       | Diesel Plug-in Hybrid Light Truck    |     |               |                                       |
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
 
-*Table 6.* Transport groups.
+**Table 6.** Transport groups.
 
 .. table:: 
    :align:   center
@@ -523,7 +526,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 10  | Techs_Li_Freight      | Light Freight Trucks       |   |             |                                      |
 +-----+-----------------------+----------------------------+---+-------------+--------------------------------------+
 
-*Table 7.* Industry energy distribution.
+**Table 7.** Industry energy distribution.
 
 .. table:: 
    :align:   center
@@ -589,7 +592,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 29  | T4ELE_AL4   | E4ELE_AL4  | Electricity for Other Uses                            |
 +-----+-------------+------------+-------------------------------------------------------+
 
-*Table 8.* Industry technologies.
+**Table 8.** Industry technologies.
 
 .. table:: 
    :align:   center
@@ -659,7 +662,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 31  | INEDOELE    | Other Electricity Demand for Industry             |   |          |                              |
 +-----+-------------+---------------------------------------------------+---+----------+------------------------------+
 
-*Table 9.* Industry groups.
+**Table 9.** Industry groups.
 
 .. table:: 
    :align:   center
@@ -681,7 +684,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 | 7 | Techs_ElectricityOther  | E7IDEDOAL4  | Electricity demand for other uses  |
 +---+-------------------------+-------------+------------------------------------+
 
-*Table 10.* Special technologies and fuels.
+**Table 10.** Special technologies and fuels.
 
 .. table:: 
    :align:   center
