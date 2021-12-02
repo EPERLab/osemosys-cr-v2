@@ -1,5 +1,5 @@
 .. sectnum::
-   :start: 1
+   :start: 2
 .. _chapter-ModelStructure:
 Model structure
 =====
