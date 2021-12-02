@@ -1,0 +1,288 @@
+@article{R1Godinez-Zamora2020a,
+   abstract = {Compliance with the Paris Agreement requires the transformation of national economies to meet net-zero carbon dioxide emissions by mid-century. To accomplish this, countries need to define long-term decarbonisation strategies with near- and mid-term actions to determine their ideal future scenario while maximizing socioeconomic benefits. This paper describes the process followed to support the creation of the decarbonisation pathway for the transport and energy sectors presented in Costa Rica's National Decarbonisation Plan. We discuss in detail the technological pathway of a deep-decarbonisation future that supports reaching net-zero emissions by 2050. Compared to a business-as-usual (BAU) scenario, our results show that the decarbonisation pathway can lead to emissions' reduction of 87% in the transport and energy sectors by 2050. Energy efficiency, the adoption of electromobility, modal-shift towards public transport and active mobility, as well as reduced demand due to digitalisation and teleworking, are found to be key drivers towards the deep-decarbonisation. These measures combined enable a 25% reduction of primary energy production by 2050. The results highlight that the decarbonisation scenario requires installing 4.4 GW more of renewable power plants by 2050, compared to the BAU scenario (80%). We also show that additional investments for the deep-decarbonisation are compensated with the reduced operating cost. Crucially, we found that the National Decarbonisation Plan results in a lower total discounted cost of about 35% of current Costa Rica's GDP, indicating that a deep decarbonisation is technically feasible and is coupled to socioeconomic benefits.},
+   author = {Guido Godínez-Zamora and Luis Victor-Gallardo and Jam Angulo-Paniagua and Eunice Ramos and Mark Howells and Will Usher and Felipe De León and Andrea Meza and Jairo Quirós-Tortós},
+   doi = {10.1016/j.esr.2020.100573},
+   issn = {2211467X},
+   journal = {Energy Strategy Reviews},
+   keywords = {Deep decarbonisation pathways,Energy policy,Energy system optimization models,OSeMOSYS,Participatory backcasting},
+   title = {Decarbonising the transport and energy sectors: Technical feasibility and socioeconomic impacts in Costa Rica},
+   volume = {32},
+   year = {2020},
+}
+
+@article{R2Howells2011,
+   abstract = {This paper discusses the design and development of the Open Source Energy Modeling System (OSeMOSYS). It describes the model's formulation in terms of a 'plain English' description, algebraic formulation, implementation-in terms of its full source code, as well as a detailed description of the model inputs, parameters, and outputs. A key feature of the OSeMOSYS implementation is that it is contained in less than five pages of documented, easily accessible code. Other existing energy system models that do not have this emphasis on compactness and openness makes the barrier to entry by new users much higher, as well as making the addition of innovative new functionality very difficult. The paper begins by describing the rationale for the development of OSeMOSYS and its structure. The current preliminary implementation of the model is then demonstrated for a discrete example. Next, we explain how new development efforts will build on the existing OSeMOSYS codebase. The paper closes with thoughts regarding the organization of the OSeMOSYS community, associated capacity development efforts, and linkages to other open source efforts including adding functionality to the LEAP model. © 2011 Elsevier Ltd.},
+   author = {Mark Howells and Holger Rogner and Neil Strachan and Charles Heaps and Hillard Huntington and Socrates Kypreos and Alison Hughes and Semida Silveira and Joe DeCarolis and Morgan Bazillian and Alexander Roehrl},
+   doi = {10.1016/j.enpol.2011.06.033},
+   isbn = {0301-4215},
+   issn = {03014215},
+   issue = {10},
+   journal = {Energy Policy},
+   pages = {5850-5870},
+   publisher = {Elsevier},
+   title = {OSeMOSYS: The Open Source Energy Modeling System. An introduction to its ethos, structure and development.},
+   volume = {39},
+   year = {2011},
+}
+
+@generic{R3Ringkjøb2018,
+   abstract = {This paper presents a thorough review of 75 modelling tools currently used for analysing energy and electricity systems. Increased activity within model development in recent years has led to several new models and modelling capabilities, partly motivated by the need to better represent the integration of variable renewables. The purpose of this paper is to give an updated overview of currently available modelling tools, their capabilities and to serve as an aid for modellers in their process of identifying and choosing an appropriate model. A broad spectrum of modelling tools, ranging from small-scale power system analysis tools to global long-term energy models, has been assessed. Key information regarding the general logic, spatiotemporal resolution as well as the technological and economic features of the models is presented in three comprehensive tables. This information has been validated and updated by model developers or affiliated contact persons, and is state-of-the-art as of the submission date. With the available suite of modelling tools, most challenges of today's electricity system can be assessed. For a future with an increasing share of variable renewables and increasing electrification of the energy system, there are some challenges such as how to represent short-term variability in long-term studies, incorporate the effect of climate change and ensure openness and transparency in modelling studies.},
+   author = {Hans Kristian Ringkjøb and Peter M Haugan and Ida Marie Solbrekke},
+   doi = {10.1016/j.rser.2018.08.002},
+   issn = {18790690},
+   issue = {July},
+   journal = {Renewable and Sustainable Energy Reviews},
+   keywords = {Electricity models,Energy modelling tools,Energy models,Energy systems,Renewable energy},
+   pages = {440-459},
+   publisher = {Elsevier Ltd},
+   title = {A review of modelling tools for energy and electricity systems with large shares of variable renewables},
+   volume = {96},
+   url = {https://doi.org/10.1016/j.rser.2018.08.002},
+   year = {2018},
+}
+
+@article{R4Niet2021,
+   abstract = {Energy modelling is critical for addressing challenges such as integrating variable renewable energy and addressing climate impacts. This paper describes the updated code management structure and code updates, the revised community forum and the outreach activities that have built a vibrant community of practice around OSeMOSYS. The code management structure has allowed code improvements to be incorporated into the model, the community forum provides users with a place to ask and answer questions, and the outreach activities connect members of the community. Overall, these three pillars show how a community of practice can be built around an open source tool and provides an example for other developers and users of open source software wanting to build a community of practice.},
+   author = {T. Niet and A. Shivakumar and F. Gardumi and W. Usher and E. Williams and M. Howells},
+   doi = {10.1016/j.esr.2021.100650},
+   issn = {2211467X},
+   journal = {Energy Strategy Reviews},
+   keywords = {Energy system modelling,Open source software,Outreach,Public policy,Software development},
+   month = {5},
+   publisher = {Elsevier Ltd},
+   title = {Developing a community of practice around an open source energy modelling tool},
+   volume = {35},
+   year = {2021},
+}
+
+@report{R5CBA_2020,
+   author = {David G Groves and James Syme and Edmundo Molina-Pérez and Carlos Calvo and Hernandez Rand and Luis Víctor-Gallardo and Guido Godínez-Zamora and Valentina Saavedra-Gómez and Adrien Vogt-Schilb and Inter-american Development Bank},
+   doi = {http://dx.doi.org/10.18235/0002867},
+   institution = {Interamerican Development Bank},
+   title = {The Benefits and Costs Of Decarbonizing Costa Rica's Economy: Informing the Implementation of Costa Rica's National Decarbonization Plan under Uncertainty},
+   url = {https://publications.iadb.org/en/benefits-and-costs-decarbonizing-costa-ricas-economy-informing-implementation-costa-ricas-national},
+   year = {2020},
+}
+
+@report{R6GovernmentofCostaRica2018-20222019,
+   author = {Government of Costa Rica 2018-2022},
+   city = {San José, Costa Rica.},
+   institution = {Ministerio de Ambiente y Energía},
+   title = {Plan Nacional de Descarbonización 2018-2050},
+   url = {https://cambioclimatico.go.cr/wp-content/uploads/2019/02/PLAN.pdf},
+   year = {2019},
+}
+
+@web_page{R7,
+   author = {KTH-dESA},
+   title = {OSeMOSYS’ documentation},
+   url = {https://osemosys.readthedocs.io/en/latest/},
+}
+
+@article{R8Profillidis2018,
+   abstract = {Modeling of Transport Demand explains the mechanisms of transport demand, from analysis to calculation and forecasting. Packed with strategies for forecasting future demand for all transport modes, the book helps readers assess the validity and accuracy of demand forecasts. Forecasting and evaluating transport demand is an essential task of transport professionals and researchers that affects the design, extension, operation, and maintenance of all transport infrastructures. Accurate demand forecasts are necessary for companies and government entities when planning future fleet size, human resource needs, revenues, expenses, and budgets. The operational and planning skills provided in Modeling of Transport Demand help readers solve the problems they face on a daily basis. Modeling of Transport Demand is written for researchers, professionals, undergraduate and graduate students at every stage in their careers, from novice to expert. The book assists those tasked with constructing qualitative models (based on executive judgment, Delphi, scenario writing, survey methods) or quantitative ones (based on statistical, time series, econometric, gravity, artificial neural network, and fuzzy methods) in choosing the most suitable solution for all types of transport applications.},
+   author = {V. A. Profillidis and G. N. Botzoris},
+   doi = {10.1016/C2016-0-00793-3},
+   journal = {Modeling of Transport Demand: Analyzing, Calculating, and Forecasting Transport Demand},
+   month = {1},
+   pages = {1-500},
+   publisher = {Elsevier},
+   title = {Modeling of transport demand: Analyzing, calculating, and forecasting transport demand},
+   year = {2018},
+}
+
+@report{R9MINAE2013,
+   author = {MINAE},
+   title = {ENCUESTA DE CONSUMO ENERGÉTICO NACIONAL EN EL SECTOR TRANSPORTE},
+   year = {2013},
+}
+
+@report{r10RITEVE2019,
+   author = {RITEVE},
+   doi = {10.5962/bhl.title.58276},
+   title = {Anuario Revisión Técnica Vehicular 2018},
+   url = {https://www.rtv.co.cr/wp-content/uploads/AnuarioRiteve2018.pdf},
+   year = {2019},
+}
+
+
+@web_page{R11SEPSE2021,
+   author = {SEPSE},
+   title = {Balances Energéticos de Costa Rica 2012-2019},
+   url = {https://sepse.go.cr/ciena/balances-energeticos/},
+   year = {2021},
+}
+
+@web_page{R12,
+   author = {Banco Central de Costa Rica},
+   title = {Producto Interno Bruto por Actividad Económica},
+   url = {https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=%205784},
+   urldate = {2021-09-05},
+}
+
+@web_page{R13,
+   author = {Banco Central de Costa Rica},
+   title = {Producto Interno Bruto y Tipo de Cambio de las Cuentas Nacionales},
+   url = {https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=%205790},
+   urldate = {2021-09-05},
+}
+
+@report{R14Smith2014,
+   author = {Margatet Smith and John Gonzales},
+   institution = {U.S. Department of Energy},
+   title = {Costs Associated With Propane Vehicle Fueling Infrastructure},
+   url = {https://afdc.energy.gov/files/u/publication/propane_costs.pdf},
+   year = {2014},
+   urldate = {2021-11-30},
+}
+
+@report{R15IRENA2012,
+   author = {IRENA},
+   keywords = {$/MWh,$/kW,$/kWh,BFB gasifier cost,CAPEX,CFB gasifier cost,IRENA publication,LCOE,O&M costs,OPEX,USD/MWh,USD/kW,USD/kWh,WACC,agricultural residues,bagasse power,balance of system costs,biomass CHP costs,biomass cost analysis,biomass feedstock costs,biomass for power,biomass fuel costs,biomass gasification costs,biomass power costs,biomass power efficiency,boiler costs,capacity factor,capital costs,civil engineering costs,co-firing costs,competitiveness of renewable energy technologies,costing analysis,costs,energy crops,equipment costs,feedstock handling costs,fixed O&M,fixed-bed gasifier cost,forest residues,fuel costs,full load hours,grid connection costs,installed costs,levelised cost of electricity,power generation installed capacity,prices,renewable O&M costs,renewable power generation costs,renewable power operations and maintenance costs,renewable technologies cost analysis,rice husks,stoker boiler costs,straw,torrified pellets,variable O&M,weighted average cost of capital,wood chips,wood pellets,woody biomass},
+   title = {Biomass for power generation},
+   url = {www.irena.org/Publications},
+   year = {2012},
+}
+
+@report{R16,
+   author = {RECOPE},
+   title = {Plan Estratégico 2020-2030},
+   url = {https://www.recope.go.cr/wp-content/uploads/2020/12/20191216_-PLAN-ESTRATEGICO_estruct.pdf},
+   urldate = {2021-09-05},
+}
+
+
+@web_page{R17,
+   author = {RECOPE},
+   title = {Datos Estadísticos Anuales de Importación - RECOPE},
+   url = {https://www.recope.go.cr/productos/estadisticas-de-importacion-y-exportacion/},
+   urldate = {2021-09-05},
+}
+
+@article{R18TillBunsen2019,
+   abstract = {Global EV Outlook 2019 Abstract Abstract The Global EV Outlook is an annual publication that identifies and discusses recent developments in electric mobility across the globe. It is developed with the support of the members of the Electric Vehicles Initiative (EVI). Combining historical analysis with projections to 2030, the report examines key areas of interest such as electric vehicle and charging infrastructure deployment, ownership cost, energy use, carbon dioxide emissions and battery material demand. The report includes policy recommendations that incorporate learning from frontrunner markets to inform policy makers and stakeholders that consider policy frameworks and market systems for electric vehicle adoption. This edition features a specific analysis of the performance of electric cars and competing powertrain options in terms of greenhouse gas emissions over their life cycle. As well, it discusses key challenges in the transition to electric mobility and solutions that are well suited to address them. This includes vehicle and battery cost developments; supply and value chain sustainability of battery materials; implications of electric mobility for power systems; government revenue from taxation; and the interplay between electric, shared and automated mobility options.},
+   author = {IEA},
+   pages = {232},
+   title = {Global EV Outlook 2019},
+   url = {www.iea.org/publications/reports/globalevoutlook2019/},
+   year = {2019},
+}
+
+@web_page{R19,
+   author = {IMF},
+   title = {IMF Primary Commodity Prices},
+   url = {https://www.imf.org/en/Research/commodity-prices},
+   urldate = {2021-09-24},
+}
+
+@report{R20,
+   author = {SNC Lavalin},
+   title = {Perspectiva sobre el potencial uso del gas natural en Costa Rica},
+   url = {https://www.recope.go.cr/wp-content/uploads/2012/09/SNC-Lavalin_Perspectivas_sobre_-uso_-de_-LNGen_CR.pdf},
+   year = {2012},
+   urldate = {2021-11-28},
+}
+
+@web_page{R21,
+   author = {NREL},
+   title = {ATB | NREL},
+   url = {https://atb.nrel.gov/},
+   urldate = {2021-09-24},
+}
+
+@book{R22IRENA2019,
+   abstract = {Unless otherwise stated, this publication and material herein are the property of the International Renewable Energy Agency (IRENA) and are subject to copyright by IRENA. Material in this publication may be freely used, shared, copied, reproduced, printed and/or stored, provided that all such material is clearly attributed to IRENA and bears a notation of copyright (© IRENA) with the year of copyright. Material contained in this publication attributed to third parties may be subject to third-party copyright and separate terms of use and restrictions, including restrictions in relation to any commercial use.},
+   author = {IRENA},
+   doi = {10.1007/SpringerReference_7300},
+   isbn = {978-92-9260-040-2},
+   issn = {1476-4687},
+   journal = {International Renewable Energy Agency},
+   keywords = {CSP,IRENA,IRENA publication,LCOE,bioenergy,biomass,capacity factor,cost of capital,costs,geothermal,hydropower,investment costs,offshore wind,onshore wind,operation and maintenance,power generation,renewable energy,solar PV},
+   pages = {160},
+   pmid = {25246403},
+   title = {Renewable Power Generation Costs in 2018},
+   url = {https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2018/Jan/IRENA_2017_Power_Costs_2018.pdf},
+   year = {2019},
+}
+
+@report{R23ICE2019,
+   author = {ICE},
+   title = {PLAN DE EXPANSION DE LA GENERACION ELÉCTRICA},
+   url = {www.grupoice.com https://www.grupoice.com/wps/wcm/connect/d91d6f4f-6619-4a2f-834f-6f5890eebb64/PLAN+DE+EXPANSION+DE+LA+GENERACION+2018-2034.pdf?MOD=AJPERES&CVID=mIeNZKV},
+   year = {2019},
+   urldate = {2021-09-05},
+}
+
+@article{R24,
+   author = {Instituto Costarricense de Electricidad},
+   title = {Plan de Expansión de la Generación Eléctrica 2020-2035},
+   url = {https://www.grupoice.com/wps/wcm/connect/741c8397-09f0-4109-a444-bed598cb7440/PLAN+DE+EXPANSI%C3%93N+DE+LA+GENERACI%C3%93N+EL%C3%89CTRICA+2020%E2%80%932035_compressed.pdf?MOD=AJPERES&CVID=nJADNyi},
+   year = {2020},
+   urldate = {2021-10-16},
+}
+
+@report{R25,
+   author = {Escuela de Ingeniería Eléctrica - Universidad de Costa Rica},
+   title = {Estudio para la caracterización del consumo energético en el sector industrial},
+   year = {2019},
+}
+
+@report{R26,
+   author = {Escuela de Ingeniería Eléctrica - Universidad de Costa Rica},
+   title = {Opciones de descarbonización del consumo energético en el sector industrial},
+   year = {2020},
+}
+
+@report{R27Hall2019,
+   author = {Dale Hall and Nic Lutsey},
+   keywords = {EVs,HDVs,charging infrastructure,hydrogen fuel cell HDVS},
+   title = {Estimating the infrastructure needs and costs for the launch of zero-emission trucks},
+   url = {www.theicct.orgcommunications@theicct.orgACKNOWLEDGEMENTS},
+   year = {2019},
+}
+
+@book{R28Taibi2018,
+   abstract = {Citation: IRENA (2018), Hydrogen from renewable power: Technology outlook for the energy transition, International Renewable Energy Agency, Abu Dhabi. About IRENA The International Renewable Energy Agency (IRENA) is an intergovernmental organisation that supports countries in their transition to a sustainable energy future and serves as the principal platform for international cooperation , a centre of excellence and a repository of policy, technology, resource and financial knowledge on renewable energy. IRENA promotes the widespread adoption and sustainable use of all forms of renewable energy, including bioenergy, geothermal, hydropower, ocean, solar and wind energy, in the pursuit of sustainable development, energy access, energy security and low-carbon economic growth and prosperity.},
+   author = {Emanuele Taibi and Raul Miranda and Wouter Vanhoudt and Thomas Winkel and Jean-Christophe Lanoix and Frederic Barth},
+   isbn = {978-92-9260-077-8},
+   keywords = {IRENA,IRENA publication,buildings,electrolysis,energy transition,gas grid,hydrogen,industry,power generation,renewable energy,renewable power,solar,transport natural gas,wind},
+   publisher = {IRENA},
+   title = {Hydrogen from renewable power: Technology outlook for the energy transition},
+   url = {www.irena.org},
+   year = {2018},
+}
+
+@report{R29,
+   author = {Element Energy and Jacobs},
+   title = {Industrial Fuel Switching Market Engagement Study},
+   url = {https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/824592/industrial-fuel-switching.pdf},
+   year = {2018},
+}
+
+@report{R30Panteia2020,
+   author = {Panteia},
+   title = {Cost Figures for Freight Transport-final report},
+   url = {https://www.kimnet.nl/binaries/kimnet/documenten/formulieren/2020/05/26/cost-figures-for-freight-transport/Cost+figures+for+freight+transport+-+final+report.pdf},
+   year = {2020},
+}
+
+@article{R31,
+   abstract = {This article provides a new methodology for estimating fuel consumption and emissions by enabling a correct comparison between freight transportation modes. The approach is developed and integrated...},
+   author = {A. García-Álvarez and P. J. Pérez-Martínez and I. González-Franco},
+   doi = {10.1080/15472450.2012.719456},
+   issue = {3},
+   journal = {http://dx.doi.org/10.1080/15472450.2012.719456},
+   keywords = {Consumption Equation,Energy Efficiency,Equivalent Tons,Spain},
+   pages = {233-244},
+   publisher = { Taylor & Francis Group },
+   title = {Energy Consumption and Carbon Dioxide Emissions in Rail and Road Freight Transport in Spain: A Case Study of Car Carriers and Bulk Petrochemicals},
+   volume = {17},
+   url = {https://www.tandfonline.com/doi/abs/10.1080/15472450.2012.719456},
+   year = {2013},
+}
+
+@report{R32INCOFER2020,
+   author = {INCOFER and BCIE and IDOM},
+   title = {Estudios de Factibilidad Técnica, Económico-Financiera, Ambiental, Social y de vulnerabilidad para la Construcción, Equipamiento, Puesta en marcha, Operación y Mantenimiento, bajo la modalidad de Concesión de Obra con Servicio Público, del Sistema de Tren Rápido de Pasajeros (TRP) de la Gran Área Metropolitana (GAM)},
+   year = {2020},
+}
