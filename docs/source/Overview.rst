@@ -49,12 +49,15 @@ scenario creation guide:
 
 1.	The :ref:`model structure <chapter-ModelStructure>` section shows the
 technological options we model.
+
 2. The :ref:`parameterization <chapter-Parameterization>` section elaborates on
 the assumptions and data inputs, including exogenous demand equations.
+
 3. The :ref:`scenario modeling <chapter-ScenarioModeling>` section shows the
 tool component to create the multiple scenarios in "Prioritizing policy
 options to transform energy systems: aligning decarbonization and production
 sophistication in Costa Rica."
+
 4. The :ref:`OSEMOSYS-CR-v2 execution guide <chapter-OSeMOSYS-CR-v2-execution-guide>`
 describes the modeling process in simple steps. It also contains the Python
 packages to execute the scripts.
