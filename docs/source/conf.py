@@ -16,8 +16,11 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    'sphinx.ext.intersphinx',    
+    'sphinxcontrib.bibtex',
 ]
+
+bibtex_bibfiles = ['osemosys_cr_v2_doc.bib']  
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
