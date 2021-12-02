@@ -102,14 +102,14 @@ execution.
      and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
      to find equivalencies opening the sheets named "_to_Code").
 
-   .. _figure5:
-   .. figure:: images/figure5.png
-      :align:   center
-      :width:   600 px
+  .. _figure5:
+  .. figure:: images/figure5.png
+     :align:   center
+     :width:   600 px
 
-      **Figure 5.** Fuels per technology in sheet Mode_per_VehFuel of file 3.
-   Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
-   to find equivalencies open the sheets named "_to_Code").
+     **Figure 5.** Fuels per technology in sheet Mode_per_VehFuel of file 3. Fuel
+     and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
+     to find equivalencies open the sheets named "_to_Code").
 - A-I_Modes_Industry.xlsx (file 4): contains a detailed transformation chain
   for the industry sector. Figure 6 shows the industry technologies (seven)
   that each supply each demand (seven). Figure 7 shows the energy technology
