@@ -17,8 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',    
-    'sphinxcontrib.bibtex',
-]
+    'sphinxcontrib.bibtex']
 
 bibtex_bibfiles = ['osemosys_cr_v2_doc.bib']  
 
