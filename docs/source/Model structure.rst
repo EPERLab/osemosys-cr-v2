@@ -96,15 +96,15 @@ execution.
    :align:   center
    :width:   500 px
    **Figure 4.** Technologies per demand in sheet Mode_Broad of file 3. Technology
-   and demand names can be codified (see Section 2.2); to find equivalencies
-   open the sheets named "_to_Code".
+   and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
+   to find equivalencies opening the sheets named "_to_Code").
 
    .. figure:: images/figure5.png
    :align:   center
    :width:   600 px
    **Figure 5.** Fuels per technology in sheet Mode_per_VehFuel of file 3.
-   Fuel and technology names can be codified (see Section 2.2); to find
-   equivalencies open the sheets named "_to_Code".
+   Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`)
+   to find equivalencies open the sheets named "_to_Code").
 - A-I_Modes_Industry.xlsx (file 4): contains a detailed transformation chain
   for the industry sector. Figure 6 shows the industry technologies (seven)
   that each supply each demand (seven). Figure 7 shows the energy technology
@@ -114,16 +114,16 @@ execution.
    :align:   center
    :width:   600 px
    **Figure 6.** Technologies per demand in sheet Mode_Broad of file 4.
-   Technology and demand names can be codified (see Section 2.2); to find
-   equivalencies open the sheets named "_to_Code".
+   Technology and demand names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`
+   to find equivalencies open the sheets named "_to_Code").
 
 .. _figure7:
     .. figure:: images/figure7.png
    :align:   center
    :width:   600 px
    **Figure 7.** Fuels per technology in sheet Mode_per_TecFuel of file 4.
-   Fuel and technology names can be codified (see Section 2.2); to find
-   equivalencies open the sheets named "_to_Code".
+   Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`)
+   to find equivalencies open the sheets named "_to_Code".
 - A-I_Classifier_Modes_Supply.xlsx (file 5): specifies the supply chain of final
   energy per carrier. It has two sheets:
   i) PrimaryEnergy defines what technologies produce the initial fuels of the
@@ -159,7 +159,7 @@ distribution supply chain :ref:`Figure 7b <figure7>`. In the end, sectors consum
 the other hand, E7ELE is used for green hydrogen production, which is then
 distributed as E3HYD for sectors to consume :ref:`Figure 7c <figure7>`.
 
-A comprehensive list of technologies and fuels is in Section 2.4.
+A comprehensive list of technologies and fuels is :ref:`resulting models sets section <resulting-models>`.
 
 .. figure:: images/fuels_per_sector.png
    :align:   center
