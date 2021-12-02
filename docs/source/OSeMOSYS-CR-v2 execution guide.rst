@@ -1,4 +1,3 @@
-.. sectnum::
 .. _chapter-OSeMOSYS-CR-v2-execution-guide:
 OSeMOSYS-CR-v2 execution guide
 =====

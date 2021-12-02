@@ -1,4 +1,3 @@
-.. sectnum::
 .. _chapter-Parameterization:
 Parameterization
 =====

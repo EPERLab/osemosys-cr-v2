@@ -12,6 +12,7 @@ The steps in video format to execute the tools could be accesed in
 Contents
 --------
 
+.. sectnum::
 .. toctree::
 
    Overview
