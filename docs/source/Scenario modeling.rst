@@ -1,4 +1,5 @@
 .. sectnum::
+   :start: 4
 .. _chapter-ScenarioModeling:
 Scenario modeling
 =====

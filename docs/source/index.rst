@@ -1,3 +1,4 @@
+
 OSeMOSYS-CR v2
 ===================================
 This repository is the online documentation for the OSeMOSYS-CR model version
@@ -12,7 +13,6 @@ The steps in video format to execute the tools could be accesed in
 Contents
 --------
 
-.. sectnum::
 .. toctree::
 
    Overview
