@@ -1,3 +1,4 @@
+.. sectnum::
 .. _chapter-ScenarioModeling:
 Scenario modeling
 =====
