@@ -19,7 +19,7 @@ extensions = [
     'sphinx.ext.intersphinx',    
     'sphinxcontrib.bibtex']
 
-bibtex_bibfiles = ['osemosys_cr_v2_doc.bib']  
+bibtex_bibfiles = ['Bibliography.bib']  
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
