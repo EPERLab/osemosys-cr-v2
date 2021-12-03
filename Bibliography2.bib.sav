@@ -43,7 +43,7 @@
 }
 
 @TechReport{R6GovernmentofCostaRica2018-20222019,
-  author      = {Government of Costa Rica 2018-2022},
+  author      = {{Government of Costa Rica 2018-2022}},
   institution = {Ministerio de Ambiente y Energía},
   title       = {Plan Nacional de Descarbonización 2018-2050},
   year        = {2019},
@@ -76,9 +76,38 @@
   journal     = {Riteve},
 }
 
-@Book{,
-  author = {IRENA},
-  editor = {IRENA},
+@Electronic{R12,
+  author = {{Banco Central de Costa Rica}},
+  title  = {Producto Interno Bruto por Actividad Económica},
+  url    = {https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=\ 5784},
+  year   = {2021},
+}
+
+@Electronic{R13,
+  author = {{Banco Central de Costa Rica}},
+  title  = {Producto Interno Bruto y Tipo de Cambio de las Cuentas Nacionales},
+  url    = {https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=\ 5790},
+  year   = {2021},
+}
+
+@TechReport{R14Smith2014,
+  author      = {Margatet Smith and John Gonzales},
+  institution = {U.S. Department of Energy},
+  title       = {Costs Associated With Propane Vehicle Fueling Infrastructure},
+  year        = {2014},
+}
+
+@TechReport{R15IRENA2012,
+  author      = {IRENA},
+  institution = {International Renewable Energy Agency},
+  title       = {Biomass for power generation},
+  year        = {2012},
+}
+
+@Electronic{R16,
+  author = {RECOPE},
+  title  = {Plan Estratégico 2020-2030},
+  url    = {https://www.recope.go.cr/wp-content/uploads/2020/12/20191216_-PLAN-ESTRATEGICO_estruct.pdf},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
