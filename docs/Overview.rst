@@ -14,11 +14,12 @@ We expand the first version of the OSeMOSYS-CR model :cite:`R1GodinezZamora2020a
   scenarios under the OSeMOSYS paradigm.
 
 OSeMOSYS is a bottom-up Energy System Optimization Model (ESOM) platform that supports
-long-term energy planning :cite:`R2Howells2011`, :cite:`R3Ringkjob2018`, :cite:`R4Niet2021`. OSeMOSYS-CR :cite:`R1Godinez-Zamora2020a` is the ESOM used to inform
+long-term energy planning :cite:`R2Howells2011`, :cite:`R3Ringkjob2018`, :cite:`R4Niet2021`.
+OSeMOSYS-CR :cite:`R1Godinez-Zamora2020a` is the ESOM used to inform
 the cost-benefit analysis :cite:`R5CBA_2020` of Costa Rica's National Decarbonization Plan :cite:`R6GovernmentofCostaRica2018-20222019`.
 The OSeMOSYS-CR-v2 model version has supporting Python-based software programs
 that facilitate the creation, parameterization, and analysis of multiple scenarios.
-Figure 1 shows the interaction of the supporting software programs designed to
+:ref:`Figure 1 <figure1>` shows the interaction of the supporting software programs designed to
 work on Windows operation systems and the GLPK OSeMOSYS implementation.
 
 .. _figure1:

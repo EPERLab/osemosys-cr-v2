@@ -52,6 +52,7 @@ of Figure 2, we use multiple Microsoft Excel files inside the ``A1_Inputs folder
 
 **Table 1.** Modeling approach per sector in sheet Sectors of file 2.
 
+.. _table1:
 .. table:: 
    :align:   center
 +--------------+----------------+--------------------+
@@ -132,7 +133,8 @@ execution.
      :width:   600 px
 
      **Figure 7.** Fuels per technology in sheet Mode_per_TecFuel of file 4.
-     Fuel and technology names can be codified (see :ref:`interconecting technologies section <interconecting-technologies>`)
+     Fuel and technology names can be codified
+     (see :ref:`interconecting technologies section <interconecting-technologies>`)
      to find equivalencies open the sheets named "_to_Code".
 - A-I_Classifier_Modes_Supply.xlsx (file 5): specifies the supply chain of final
   energy per carrier. It has two sheets:
@@ -169,7 +171,8 @@ distribution supply chain :ref:`Figure 7b <figure7>`. In the end, sectors consum
 the other hand, E7ELE is used for green hydrogen production, which is then
 distributed as E3HYD for sectors to consume :ref:`Figure 7c <figure7>`.
 
-A comprehensive list of technologies and fuels is :ref:`resulting models sets section <resulting-models>`.
+A comprehensive list of technologies and fuels is 
+ref:`resulting models sets section <resulting-models>`.
 
 .. figure:: images/figure8.png
    :align:   center
@@ -294,6 +297,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 2.** Supply-side sets.
 
+.. _table2:
 .. table:: 
    :align:   center
 
@@ -351,6 +355,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 3.** Final demand sets.
 
+.. _table3:
 .. table:: 
    :align:   center
 +---+-------------+-----------+---------------------------------------------------------+
@@ -375,6 +380,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 4.** Transport energy distribution.
 
+.. _table4:
 .. table:: 
    :align:   center
 +-----+-------------+------------+------------------------------------------------------+
@@ -417,6 +423,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 5.** Transport technologies.
 
+.. _table5:
 .. table:: 
    :align:   center
 +-----+----------------+--------------------------------------+-----+---------------+---------------------------------------+
@@ -505,6 +512,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 6.** Transport groups.
 
+.. _table6:
 .. table:: 
    :align:   center
 +-----+-----------------------+----------------------------+---+-------------+--------------------------------------+
@@ -533,6 +541,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 7.** Industry energy distribution.
 
+.. _table7:
 .. table:: 
    :align:   center
 +-----+-------------+------------+-------------------------------------------------------+
@@ -599,6 +608,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 8.** Industry technologies.
 
+.. _table8:
 .. table:: 
    :align:   center
 +-----+-------------+---------------------------------------------------+---+----------+------------------------------+
@@ -669,6 +679,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 9.** Industry groups.
 
+.. _table9:
 .. table:: 
    :align:   center
 +---+-------------------------+-------------+------------------------------------+
@@ -691,6 +702,7 @@ to the template in the file B1_Model_Structure.xlsx (as illustrated in
 
 **Table 10.** Special technologies and fuels.
 
+.. _table10:
 .. table:: 
    :align:   center
 +---+-----------------+------------------------------------+---+------------+-----------------------+

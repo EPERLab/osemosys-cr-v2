@@ -102,8 +102,9 @@ Modeling the electrical sector
 
 The Electrical sheet has a "Built-in Parameter Set" column: modelers must
 enter "NO" if they had not defined the parameter in the parameterization phase
-(Section 3.3). If they wish to overwrite the previous value, they must indicate
-"YES" under the column. In this sheet, all the values must be "YES" under the "Linear" column.
+(:ref:`primary technologies section <primary-technologies>`).
+If they wish to overwrite the previous value, they must indicate "YES"
+under the column. In this sheet, all the values must be "YES" under the "Linear" column.
 
 The" Exact_Years" and "Exact_Values" columns have values separated with semicolons ";".
 The string entered must have the same number of years and values. If the parameter

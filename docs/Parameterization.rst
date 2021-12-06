@@ -5,8 +5,9 @@ Parameterization
 =====
 
 Previously we mentioned where to adjust the InputActivityRatio and
-OutputActivityRatio (Section 2.2). Here we describe the rest of the OSeMOSYS
-parameters. Modelers must populate files 8 to 10 that A1_Mode_Structure.py produces,
+OutputActivityRatio (:ref:`interconecting technologies section <interconecting-technologies>`).
+Here we describe the rest of the OSeMOSYS parameters. Modelers must
+populate files 8 to 10 that A1_Mode_Structure.py produces,
 i.e., A-O_Demand.xlsx, A-O_Fleet.xlsx, and A-O_Parametrization.xlsx.
 
 This section explains four groups of parameters:
@@ -61,6 +62,7 @@ the research article.  Table 11 explains data sources for key parameterization o
 
 **Table 11.** Model input references for demand modeling.
 
+.. _table11:
 .. table:: 
    :align:   center
 +------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -77,8 +79,9 @@ the research article.  Table 11 explains data sources for key parameterization o
 
 To enter demand into the modeling framework, we use A-O_Demand.xlsx (file 8).
 It consists of a single sheet with a table to define projections, having the
-same capabilities described in Section 2.3. The transport demands have special
-commands under the "Projection.Mode" column that contain the "GDP coupling" substring.
+same capabilities described in :ref:`additional set definitions section <additional-definitions>`.
+The transport demands have special commands under the
+"Projection.Mode" column that contain the "GDP coupling" substring.
 
 For transport technologies, we enter the base year's fleet, occupancy rate,
 and distance driven. Then we enter the percentual distribution of demand production.
@@ -100,9 +103,10 @@ groups and the corresponding disaggregated (i.e., per fuel) transport technologi
 This table indicates the ``A2_Compiler.py`` to convert the demand of the entire
 period into the fleet.
 
-Taking the residual capacity parameter (explained in Section 3.4), ``A2_Compiler.py``
-internally defines the base year fleet distribution (e.g., percent of
-gasoline and diesel SUVs). Moreover, it takes the fleet "Target Year"
+Taking the residual capacity parameter (explained in
+:ref:`Secondary, transport, and other technologies section <secondary-technologies>`),
+``A2_Compiler.py`` internally defines the base year fleet distribution
+(e.g., percent of gasoline and diesel SUVs). Moreover, it takes the fleet "Target Year"
 and "Target Value" from A-O_Fleet.xlsx for every available technology.
 With these values, the penetration percent of each technology is translated
 into a fixed capacity for OSeMOYS to execute.
@@ -116,6 +120,7 @@ Combining these two parameters is the lever to model scenario differences.
 Finally, if a technology does not have a restriction, it will be free to satisfy
 a demand if it is cost-optimal.
 
+.. _primary-technologies:
 Primary technologies
 ------------
 
@@ -123,14 +128,16 @@ The remaining parameters must be entered in A-O_Parameterization.xlsx (file 10).
 This file has eleven sheets. To parameterize primary technologies, modelers
 must modify the Fixed Horizon Parameters and Primary Techs sheets only.
 
-For reference, primary technologies are listed in Table 2. Table 12 summarizes
-input data sources. The **ResidualCapacity** of power plants corresponds to the
+For reference, primary technologies are listed in (:ref:`supply-side sets table <table2>`).
+Table 12 summarizes input data sources. The **ResidualCapacity**
+of power plants corresponds to the
 existing installed capacity per technology. The **TotalAnnualMaxCapacity**
 (henceforth, maximum capacity) and **TotalAnnualMinCapacity**
 are used to define the planned capacity of existing plans.
 
 **Table 12.** Model input references for primary technologies.
 
+.. _table12:
 .. table:: 
    :align:   center
 
@@ -173,7 +180,7 @@ line with the identified potential for the country :cite:`R24`. The model
 chooses the cheapest of all available options until the maximum capacity
 is reached. We do not consider offshore wind, which has a potential of 15 GW :cite:`R24`.
 
-
+.. _secondary-technologies:
 Secondary, transport, and other technologies
 ------------
 
@@ -222,12 +229,14 @@ the **OperationalLife** parameter. Another parameter in the sheet is
 **CapacityToActivityUnit**; it converts GW of capacity to PJ of energy with a
 conversion of 31.536 if that power was used throughout the year. The
 **InputActivityRatio** and **OutputActivityRatio** parameters were inputted
-in Section 2.2. For the rest of the parameters, Table 13 shows the sources
+in :ref:`interconecting technologies section <interconecting-technologies>`.
+For the rest of the parameters, :ref:`Table 13 <Table13>` shows the sources
 for technologies or specific technology parameters.
 
-
+.. _table13:
 **Table 13.** Model input references for secondary, transport, and other technologies.
 
+.. _table13:
 .. table:: 
    :align:   center
 +----------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
