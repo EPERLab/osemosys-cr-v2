@@ -28,10 +28,10 @@ agricultural, commercial, residential, and public services consume final energy
 directly, having a more straightforward modeling structure.
 
 We consider emission reductions from biofuel blends as in the first model
-version [1]: CO2 equivalent (CO2e) emission factors decrease proportionally to
-the biofuel share of the blend. Also, relative cost differences between biofuels
-and conventional fuels are not considered. Finally, off-road, maritime, and
-air transport are not modeled here.
+version :cite:`R1GodinezZamora2020a`: CO2 equivalent (CO2e) emission factors decrease
+proportionally to the biofuel share of the blend. Also, relative cost
+differences between biofuels and conventional fuels are not considered.
+Finally, off-road, maritime, and air transport are not modeled here.
 
 This version's temporal resolution is yearly and covers the period between
 2018 and 2050, with only one region (i.e., Costa Rica) and one mode of operation.
@@ -194,7 +194,7 @@ executing ``A1_Mode_Structure.py``, the following files appear in A1_Outputs:
 
 The files A-O_AR_Model_Base_Year.xlsx and A-O_AR_Projections.xlsx have the
 function of connecting technology sets. The former defines the base year's
-input and output activity ratios (AR) (see OSeMOSYS documentation [7]).
+input and output activity ratios (AR) (see OSeMOSYS documentation :cite:`R7`).
 The latter has an identical structure for projections.
 
 ``A1_Mode_Structure.py`` automatically connects the model dividing
@@ -282,7 +282,7 @@ The previous section showed how to structure the model. After executing
 parameterization explained below), the A-2_Structure_Lists.xlsx file is created.
 It contains all the listed technologies, sets, and emissions (besides equivalent
 carbon dioxide, it also lists externality factors like health, accidents, and
-congestion as in the first version [1]).
+congestion as in the first version :cite:`R1GodinezZamora2020a`).
 
 The technology and fuel sets are in Tables 2-10. Table 10 contains technologies
 and fuels to represent better transport sector options (e.g., non-motorized transport)

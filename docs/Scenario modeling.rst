@@ -92,7 +92,7 @@ The linear curves have the option of decadal interpolation. Columns" v_2030",
 If the modeler only needs an interpolation to 2050, they must type "interp"
 on the other columns. The "y_ini" column indicates the year in which the
 interpolation starts; values before this year will be the existing under the
-initial parameterization (see Section 3) or zero.
+initial parameterization (see :ref:`section 3 <chapter-Parameterization>`) or zero.
 
 
 .. _modeling-electrical

@@ -32,7 +32,7 @@ with the support of Figure 10:
    A2_Output_Params to B1_Output_Params.
 9. Once the scenarios are parameterized, execute ``B1_Base_Scenarios.py``.
    Make sure the folder Executables exists inside the project's folder. 
-   he OSeMOSYS_model.txt (see Figure 1) file is available in its repository.
+   he OSeMOSYS_model.txt (see :ref:`Figure 1 <figure1>`) file is available in its repository.
    We advise this file to be executed in Spyder with the configuration
    "Console: Execute in an external system terminal" and "External system terminal:
    Interact with the Python console after execution".

@@ -2,7 +2,7 @@
 Overview
 =====
 
-We expand the first version of the OSeMOSYS-CR model [1] with three objectives:
+We expand the first version of the OSeMOSYS-CR model :cite:`R1GodinezZamora2020a` with three objectives:
 
 - First, we add a representation of the energy transformation technological
   chain in the industrial sector, i.e., the collection of firms that consume
