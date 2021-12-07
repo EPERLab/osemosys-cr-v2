@@ -172,7 +172,7 @@ the other hand, E7ELE is used for green hydrogen production, which is then
 distributed as E3HYD for sectors to consume :ref:`Figure 7c <figure7>`.
 
 A comprehensive list of technologies and fuels is 
-`Resulting model sets`_ section.
+ref:`resulting models sets section <resulting-models>`.
 
 .. figure:: images/figure8.png
    :align:   center
@@ -182,8 +182,9 @@ A comprehensive list of technologies and fuels is
    technologies, b) electricity transmission and distribution,
    c) hydrogen production.
 
-.. _interconecting-technologies:
+
 Interconnecting technologies
+.. _interconecting-technologies:
 ------------
 
 Here we show how to populate the Excel files to interconnect the model. After
@@ -276,7 +277,7 @@ files containing elements that complement the energy system modeling:
   two main scenarios, region, mode of operation, and timeslice value. These
   tools only support one timeslice for automatic model connection.
 
-.. _Resulting model sets:
+.. _resulting-models:
 Resulting model sets
 ------------
 
