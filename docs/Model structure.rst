@@ -172,7 +172,7 @@ the other hand, E7ELE is used for green hydrogen production, which is then
 distributed as E3HYD for sectors to consume :ref:`Figure 7c <figure7>`.
 
 A comprehensive list of technologies and fuels is 
-`Resulting model sets` section.
+`Resulting model sets`_ section.
 
 .. figure:: images/figure8.png
    :align:   center
