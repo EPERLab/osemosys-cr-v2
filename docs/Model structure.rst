@@ -172,7 +172,7 @@ the other hand, E7ELE is used for green hydrogen production, which is then
 distributed as E3HYD for sectors to consume :ref:`Figure 7c <figure7>`.
 
 A comprehensive list of technologies and fuels is 
-ref:`resulting models sets section <resulting-models>`.
+`Resulting model sets` section.
 
 .. figure:: images/figure8.png
    :align:   center
@@ -276,7 +276,7 @@ files containing elements that complement the energy system modeling:
   two main scenarios, region, mode of operation, and timeslice value. These
   tools only support one timeslice for automatic model connection.
 
-.. _resulting-models:
+.. _Resulting model sets:
 Resulting model sets
 ------------
 
