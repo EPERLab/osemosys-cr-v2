@@ -1,14 +1,16 @@
+.. include:: .special.rst
 .. sectnum::
    :start: 3
 .. _chapter-Parameterization:
 Parameterization
 =====
 
-Previously we mentioned where to adjust the InputActivityRatio and
-OutputActivityRatio (:ref:`interconecting technologies section <interconecting-technologies>`).
-Here we describe the rest of the OSeMOSYS parameters. Modelers must
-populate files 8 to 10 that A1_Mode_Structure.py produces,
-i.e., A-O_Demand.xlsx, A-O_Fleet.xlsx, and A-O_Parametrization.xlsx.
+Previously we mentioned where to adjust the **InputActivityRatio** and
+**OutputActivityRatio** (:ref:`interconecting technologies section <interconecting-technologies>`).
+Here we describe the rest of the :blue:`OSeMOSYS` parameters. Modelers must
+populate files 8 to 10 that ``A1_Mode_Structure.py`` produces,
+i.e., :red:`A-O_Demand.xlsx`, :green:`A-O_Fleet.xlsx`, and
+:red:`A-O_Parametrization.xlsx`.
 
 This section explains four groups of parameters:
 
