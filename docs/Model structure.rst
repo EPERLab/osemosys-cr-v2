@@ -171,8 +171,8 @@ distribution supply chain :ref:`Figure 7b <figure7>`. In the end, sectors consum
 the other hand, E7ELE is used for green hydrogen production, which is then
 distributed as E3HYD for sectors to consume :ref:`Figure 7c <figure7>`.
 
-A comprehensive list of technologies and fuels is 
-ref:`resulting models sets section <resulting-models>`.
+A comprehensive list of technologies and fuels is
+:ref:`resulting models sets section <resulting-models>` .
 
 .. figure:: images/figure8.png
    :align:   center
@@ -183,8 +183,8 @@ ref:`resulting models sets section <resulting-models>`.
    c) hydrogen production.
 
 
-Interconnecting technologies
 .. _interconecting-technologies:
+Interconnecting technologies
 ------------
 
 Here we show how to populate the Excel files to interconnect the model. After
