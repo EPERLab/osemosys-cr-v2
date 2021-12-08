@@ -6,9 +6,6 @@
 Parameterization
 =====
 
-
-
- <style>
 Previously we mentioned where to adjust the **InputActivityRatio** and
 **OutputActivityRatio** (:ref:`interconecting technologies section <interconecting-technologies>`).
 Here we describe the rest of the :blue:`OSeMOSYS` parameters. Modelers must
