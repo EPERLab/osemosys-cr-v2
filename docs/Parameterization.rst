@@ -1,9 +1,5 @@
 .. include:: .special.rst
 
-.. raw:: html
-  <style> .red {color:red} </style>
-.. role:: red
-
 .. sectnum::
    :start: 3
 .. _chapter-Parameterization:
