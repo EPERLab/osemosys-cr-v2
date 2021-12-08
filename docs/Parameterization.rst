@@ -1,10 +1,18 @@
 .. include:: .special.rst
+
+.. raw:: html
+  <style> .red {color:red} </style>
+.. role:: red
+
 .. sectnum::
    :start: 3
 .. _chapter-Parameterization:
 Parameterization
 =====
 
+
+
+ <style>
 Previously we mentioned where to adjust the **InputActivityRatio** and
 **OutputActivityRatio** (:ref:`interconecting technologies section <interconecting-technologies>`).
 Here we describe the rest of the :blue:`OSeMOSYS` parameters. Modelers must
