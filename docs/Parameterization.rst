@@ -6,13 +6,13 @@
 Parameterization
 =====
 
- Previously we mentioned where to adjust the **InputActivityRatio** and
+Previously we mentioned where to adjust the **InputActivityRatio** and
 **OutputActivityRatio** (:ref:`interconecting technologies section
 <interconecting-technologies>`).
 
-Here we describe the rest of the :blue:`OSeMOSYS` parameters. Modelers must
+Here we describe the rest of the OSeMOSYS parameters. Modelers must
 populate files 8 to 10 that ``A1_Mode_Structure.py`` produces, i.e., A-O_Demand.xlsx,
-A-O_Fleet.xlsx, and A-O_Parametrization.xlsx.
+:textcolor:`<#00ff00> A-O_Fleet.xlsx`, and A-O_Parametrization.xlsx :textcolor:`<00ff00> A-O_Parametrization.xlsx`.
 
 This section explains four groups of parameters:
 
