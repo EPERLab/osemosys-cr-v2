@@ -11,14 +11,8 @@ Parameterization
 <interconecting-technologies>`).
 
 Here we describe the rest of the :blue:`OSeMOSYS` parameters. Modelers must
-populate files 8 to 10 that ``A1_Mode_Structure.py`` produces,
-
-.. raw:: html
-  <embed>    
-    i.e., <p style="color:red">A-O_Demand.xlsx</p>, A-O_Fleet.xlsx, and
-    A-O_Parametrization.xlsx.
-  </embed>
-
+populate files 8 to 10 that ``A1_Mode_Structure.py`` produces, i.e., A-O_Demand.xlsx,
+A-O_Fleet.xlsx, and A-O_Parametrization.xlsx.
 
 This section explains four groups of parameters:
 
